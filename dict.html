@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary - en</title>
+    <link rel="stylesheet" href="public/css/dict.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="py-5 text-center">
+      <i style="font-size:48pt" class="bi bi-book fs-1"></i>
+      <h2>English Dictionary</h2>
+      <p class="lead"></p>
+    </div>
+    
+    <div class="input-group mb-3">
+
+        <input type="text" list="suggestions" id="searchString" class="form-control" id="floatingInput" aria-label="Search here..." placeholder="Search here...">
+        
+      <datalist id="suggestions">
+        </datalist>
+     
+      <button class="btn btn-outline-secondary" type="button" id="bookmarks"><i class="bi bi-bookmarks-fill"></i> Bookmarks</button>
+    </div>
+    <div id="content" class="list-group w-auto mt-3">
+        
+    </div>
+  </div>
+    <!-- # SCRIPTS -->
+    <script src="public/lib/jquery-3.6.0.min.js"></script>
+    <script src="public/js/dict.js"></script>
+    <!-- # END SCRIPTS -->
+</body>
+
+</html>
