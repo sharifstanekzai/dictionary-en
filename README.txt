@@ -1,6 +1,11 @@
 English Dictionary
 1. Fetch and Promises are used to implment the functionality.
-2. Only 10 words are loaded at a time, further words are loaded as the users scrolls down. This is done in order not to bock the UI because UI rendering is a synchronous function and too many DOM update will block the UI or in worst cases the page might crash.
+2. Only 10 words are loaded at a time, further words are loaded as the users scrolls down. 
+    This is done in order not to bock the UI because UI rendering is a synchronous function and 
+    too many DOM update will block the UI or in worst cases the page might crash.
+
+    NOTE:: My app shows all the words/meanings starting with the string in the search box rather than only the word in the search box.
+
 3. As the string length passes 3 characters the app will present suggestion list.
 4. Bookmarking feature is also implmented and it save the words to localStorage, 
     > click on the bookmark icon next to the word to bookmark it.
