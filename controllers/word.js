@@ -4,7 +4,7 @@ const connection = sql.createConnection({
     host: 'localhost',
     database: 'entries',
     user: 'root',
-    password: 'O1933419@mysql'
+    password: 'admin@miu'
 });
 var getSuggestions=(data)=>{
     console.log(data);
