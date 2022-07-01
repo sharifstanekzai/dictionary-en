@@ -22,6 +22,7 @@ app.get('/',(request,response)=>{
 });
 
 app.post('/lookup',(request,response)=>{
+    
     controller
     .lookupString(request.body)
     .then((words)=>{
